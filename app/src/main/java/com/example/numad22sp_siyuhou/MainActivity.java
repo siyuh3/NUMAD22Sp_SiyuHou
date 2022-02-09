@@ -24,16 +24,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button = (Button) findViewById(R.id.button2);
+        Button buttonLink = (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivity2();
             }
         });
+
+        buttonLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity3();
+            }
+        });
     }
 
     public void openActivity2(){
         Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
+    public void openActivity3(){
+        Intent intent = new Intent(this, MainActivity3.class);
         startActivity(intent);
     }
 }

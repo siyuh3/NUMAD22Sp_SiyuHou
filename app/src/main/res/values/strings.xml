@@ -15,4 +15,9 @@
     <string name="e">E</string>
     <string name="f">F</string>
     <string name="pressed">preessed: -</string>
+    <string name="link_collector">Link Collector</string>
+    <string name="button_add">+</string>
+    <string name="todo">TODO</string>
+    <string name="url_name">url_name</string>
+    <string name="url">url</string>
 </resources>
