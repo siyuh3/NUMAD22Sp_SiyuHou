@@ -20,4 +20,21 @@
     <string name="todo">TODO</string>
     <string name="url_name">url_name</string>
     <string name="url">url</string>
+    <string name="title_activity_input">InputActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--    <string name="save_the_input">Sa</string>-->
+    <!--    <string name="Save">Button</string>-->
+    <string name="url_name_input">Url Name</string>
+    <string name="valid_url">Valid Url</string>
+    <string name="save_the_input">Save</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="my_name_is_siyu_hou_nmy_email_address_is_hou_siy_northeastern_edu">My name is Siyu Hou\nmy email address is hou.siy@northeastern.edu</string>
 </resources>

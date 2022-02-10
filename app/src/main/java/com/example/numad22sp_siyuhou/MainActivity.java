@@ -9,14 +9,14 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public void toastMsg(String msg) {
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
-    }
-
-    public void displayToastMsg(View v) {
-        toastMsg("My name is Siyu Hou, my email address is hou.siy@northeastern.edu");
-    }
+//    public void toastMsg(String msg) {
+//        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
+//        toast.show();
+//    }
+//
+//    public void displayToastMsg(View v) {
+//        toastMsg("My name is Siyu Hou, my email address is hou.siy@northeastern.edu");
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = (Button) findViewById(R.id.button2);
         Button buttonLink = (Button) findViewById(R.id.button3);
+        Button aboutMe = (Button) findViewById(R.id.button);
+        aboutMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAboutMe();
+            }
+        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,12 +48,21 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     public void openActivity2(){
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }
+
+
     public void openActivity3(){
         Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
+
+    public void openAboutMe(){
+        Intent intent = new Intent(this, AboutMe.class);
         startActivity(intent);
     }
 }
