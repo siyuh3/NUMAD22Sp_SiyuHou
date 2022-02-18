@@ -37,4 +37,6 @@
     <string name="textview">TextView</string>
     <string name="button">Button</string>
     <string name="my_name_is_siyu_hou_nmy_email_address_is_hou_siy_northeastern_edu">My name is Siyu Hou\nmy email address is hou.siy@northeastern.edu</string>
+    <string name="LOCATION">Button</string>
+    <string name="location">LOCATION</string>
 </resources>

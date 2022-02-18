@@ -3,6 +3,7 @@ package com.example.numad22sp_siyuhou;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -46,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
                 openActivity3();
             }
         });
+        Button locator = (Button) findViewById(R.id.locator);
+        locator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLocation();
+            }
+        });
     }
 
 
@@ -63,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void openAboutMe(){
         Intent intent = new Intent(this, AboutMe.class);
+        startActivity(intent);
+    }
+    public void openLocation(){
+        Intent intent = new Intent(this, Location.class);
         startActivity(intent);
     }
 }
