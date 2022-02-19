@@ -39,4 +39,12 @@
     <string name="my_name_is_siyu_hou_nmy_email_address_is_hou_siy_northeastern_edu">My name is Siyu Hou\nmy email address is hou.siy@northeastern.edu</string>
     <string name="LOCATION">Button</string>
     <string name="location">LOCATION</string>
+    <string name="get_current_position">get current position</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="location2">Location</string>
+    <string name="locator2" />
+
+    <string name="location23" />
+    <string name="location_find">LOCATION</string>
 </resources>

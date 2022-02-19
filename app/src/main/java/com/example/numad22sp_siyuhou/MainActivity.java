@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openLocation(){
-        Intent intent = new Intent(this, Location.class);
+        Intent intent = new Intent(this, Locator.class);
         startActivity(intent);
     }
 }
