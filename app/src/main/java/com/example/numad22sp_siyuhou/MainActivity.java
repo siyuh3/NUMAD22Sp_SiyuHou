@@ -10,15 +10,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-//    public void toastMsg(String msg) {
-//        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-//        toast.show();
-//    }
-//
-//    public void displayToastMsg(View v) {
-//        toastMsg("My name is Siyu Hou, my email address is hou.siy@northeastern.edu");
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,9 +45,20 @@ public class MainActivity extends AppCompatActivity {
                 openLocation();
             }
         });
+
+        Button webService = (Button) findViewById(R.id.webService);
+        webService.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                openService();
+            }
+        });
     }
 
-
+    public void openService(){
+        Intent intent = new Intent(this, WebService.class);
+        startActivity(intent);
+    }
     public void openActivity2(){
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);

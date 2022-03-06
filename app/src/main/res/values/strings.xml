@@ -47,4 +47,16 @@
 
     <string name="location23" />
     <string name="location_find">LOCATION</string>
+    <string name="web_service">WEB SERVICE</string>
+    <string name="submit">Submit</string>
+    <string name="details">details</string>
+    <string name="category">Category</string>
+    <string name="search_country_eg_china">Search country (eg: China)</string>
+    <string name="choose_one_post_you_want_to_fetch">Choose one post you want to fetch:</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="ping">Ping</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
 </resources>
